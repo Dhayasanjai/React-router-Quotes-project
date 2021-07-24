@@ -66,6 +66,7 @@ const NewForm = () => {
               ref={textRef}
               className="font-bold rounded-md px-2 border border-black  outline-none focus:bg-purple-500 md:w-6/12 text-xl "
               type="text"
+required
             ></input>
           </div>
           <div className="flex flex-col gap-2">
@@ -75,6 +76,7 @@ const NewForm = () => {
               ref={authorRef}
               className="font-bold rounded-md px-2 border border-black  outline-none focus:bg-purple-500 md:w-6/12 text-xl "
               type="text"
+required
             ></input>
           </div>
         </div>
